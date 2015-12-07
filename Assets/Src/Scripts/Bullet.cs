@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Bullet : MonoBehaviour {
 	float bulletSpeed;
-//	[SerializeField]AudioSource shootSound;
+//	[SerializeField]AudioSource shootSound; //Tentativa de fazer o som tocar ao atirar
 
 	// Use this for initialization
 	void Start () {

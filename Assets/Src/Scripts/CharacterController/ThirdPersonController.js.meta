@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 15c7c7a1494e6c042a6b5a73df790196
+timeCreated: 1449171127
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - idleAnimation: {fileID: 7400010, guid: 6fb3851da6a6f5948ab6892bee8ba920, type: 3}
+  - walkAnimation: {instanceID: 0}
+  - runAnimation: {instanceID: 0}
+  - jumpPoseAnimation: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

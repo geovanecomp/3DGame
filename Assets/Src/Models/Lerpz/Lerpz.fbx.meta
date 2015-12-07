@@ -148,8 +148,12 @@ ModelImporter:
     400138: wristLeft
     400140: wristRight
     4300000: Lerpz
-    7400000: Take 001
+    7400000: LerpzIdle
+    7400002: LerpzWalk
+    7400004: LerpzRun
+    7400006: LerpzJump
     9500000: //RootNode
+    11100000: //RootNode
     13700000: Lerpz
   materials:
     importMaterials: 1
@@ -170,7 +174,679 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: LerpzIdle
+      takeName: Take 001
+      firstFrame: 201
+      lastFrame: 401
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Lerpz
+        weight: 1
+      - path: rootJoint
+        weight: 1
+      - path: rootJoint/hipLeft
+        weight: 1
+      - path: rootJoint/hipLeft/kneeLeft
+        weight: 1
+      - path: rootJoint/hipLeft/kneeLeft/ankleLeft
+        weight: 1
+      - path: rootJoint/hipLeft/kneeLeft/ankleLeft/footLeft
+        weight: 1
+      - path: rootJoint/hipLeft/kneeLeft/ankleLeft/footLeft/toeLeft
+        weight: 1
+      - path: rootJoint/hipLeft/kneeLeft/ankleLeft/footLeft/toeLeft/toeLeftTip
+        weight: 1
+      - path: rootJoint/hipRight
+        weight: 1
+      - path: rootJoint/hipRight/kneeRight
+        weight: 1
+      - path: rootJoint/hipRight/kneeRight/ankleRight
+        weight: 1
+      - path: rootJoint/hipRight/kneeRight/ankleRight/footRight
+        weight: 1
+      - path: rootJoint/hipRight/kneeRight/ankleRight/footRight/toeRight
+        weight: 1
+      - path: rootJoint/hipRight/kneeRight/ankleRight/footRight/toeRight/toeRightTip
+        weight: 1
+      - path: rootJoint/torso
+        weight: 1
+      - path: rootJoint/torso/shoulders
+        weight: 1
+      - path: rootJoint/torso/shoulders/head
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/aNTeNNa_trEE
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/aNTeNNa_trEE/antennaLeft1
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/aNTeNNa_trEE/antennaLeft1/antennaLeft2
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/aNTeNNa_trEE/antennaLeft1/antennaLeft2/antennaLeft3
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/aNTeNNa_trEE/antennaRight1
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/aNTeNNa_trEE/antennaRight1/antennaRight2
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/aNTeNNa_trEE/antennaRight1/antennaRight2/antennaRight3
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/mouthBottom1
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/mouthBottom1/mouthBottom2
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/mouthLeft1
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/mouthLeft1/mouthLeft2
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/mouthRight1
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/mouthRight1/mouthRight2
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/mouthTop1
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/mouthTop1/mouthTop2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/indexFingerLeft1
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/indexFingerLeft1/indexFingerLeft2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/indexFingerLeft1/indexFingerLeft2/indexFingerLeft3
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/indexFingerLeft1/indexFingerLeft2/indexFingerLeft3/indexFingerLeft4
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/middleFingerLeft1
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/middleFingerLeft1/middleFingerLeft2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/middleFingerLeft1/middleFingerLeft2/middleFingerLeft3
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/middleFingerLeft1/middleFingerLeft2/middleFingerLeft3/middleFingerLeft4
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/pinkyFingerLeft1
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/pinkyFingerLeft1/pinkyFingerLeft2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/pinkyFingerLeft1/pinkyFingerLeft2/pinkyFingerLeft3
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/pinkyFingerLeft1/pinkyFingerLeft2/pinkyFingerLeft3/pinkyFingerLeft4
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/thumbLeft1
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/thumbLeft1/thumbLeft2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/thumbLeft1/thumbLeft2/thumbLeft3
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/indexFingerRight1
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/indexFingerRight1/indexFingerRight2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/indexFingerRight1/indexFingerRight2/indexFingerRight3
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/indexFingerRight1/indexFingerRight2/indexFingerRight3/indexFingerRight4
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/middleFingerRight1
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/middleFingerRight1/middleFingerRight2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/middleFingerRight1/middleFingerRight2/middleFingerRight3
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/middleFingerRight1/middleFingerRight2/middleFingerRight3/middleFingerRight4
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/pinkyFingerRight1
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/pinkyFingerRight1/pinkyFingerRight2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/pinkyFingerRight1/pinkyFingerRight2/pinkyFingerRight3
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/pinkyFingerRight1/pinkyFingerRight2/pinkyFingerRight3/pinkyFingerRight4
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/thumbRight1
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/thumbRight1/thumbRight2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/thumbRight1/thumbRight2/thumbRight3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: LerpzWalk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Lerpz
+        weight: 1
+      - path: rootJoint
+        weight: 1
+      - path: rootJoint/hipLeft
+        weight: 1
+      - path: rootJoint/hipLeft/kneeLeft
+        weight: 1
+      - path: rootJoint/hipLeft/kneeLeft/ankleLeft
+        weight: 1
+      - path: rootJoint/hipLeft/kneeLeft/ankleLeft/footLeft
+        weight: 1
+      - path: rootJoint/hipLeft/kneeLeft/ankleLeft/footLeft/toeLeft
+        weight: 1
+      - path: rootJoint/hipLeft/kneeLeft/ankleLeft/footLeft/toeLeft/toeLeftTip
+        weight: 1
+      - path: rootJoint/hipRight
+        weight: 1
+      - path: rootJoint/hipRight/kneeRight
+        weight: 1
+      - path: rootJoint/hipRight/kneeRight/ankleRight
+        weight: 1
+      - path: rootJoint/hipRight/kneeRight/ankleRight/footRight
+        weight: 1
+      - path: rootJoint/hipRight/kneeRight/ankleRight/footRight/toeRight
+        weight: 1
+      - path: rootJoint/hipRight/kneeRight/ankleRight/footRight/toeRight/toeRightTip
+        weight: 1
+      - path: rootJoint/torso
+        weight: 1
+      - path: rootJoint/torso/shoulders
+        weight: 1
+      - path: rootJoint/torso/shoulders/head
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/aNTeNNa_trEE
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/aNTeNNa_trEE/antennaLeft1
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/aNTeNNa_trEE/antennaLeft1/antennaLeft2
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/aNTeNNa_trEE/antennaLeft1/antennaLeft2/antennaLeft3
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/aNTeNNa_trEE/antennaRight1
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/aNTeNNa_trEE/antennaRight1/antennaRight2
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/aNTeNNa_trEE/antennaRight1/antennaRight2/antennaRight3
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/mouthBottom1
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/mouthBottom1/mouthBottom2
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/mouthLeft1
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/mouthLeft1/mouthLeft2
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/mouthRight1
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/mouthRight1/mouthRight2
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/mouthTop1
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/mouthTop1/mouthTop2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/indexFingerLeft1
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/indexFingerLeft1/indexFingerLeft2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/indexFingerLeft1/indexFingerLeft2/indexFingerLeft3
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/indexFingerLeft1/indexFingerLeft2/indexFingerLeft3/indexFingerLeft4
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/middleFingerLeft1
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/middleFingerLeft1/middleFingerLeft2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/middleFingerLeft1/middleFingerLeft2/middleFingerLeft3
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/middleFingerLeft1/middleFingerLeft2/middleFingerLeft3/middleFingerLeft4
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/pinkyFingerLeft1
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/pinkyFingerLeft1/pinkyFingerLeft2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/pinkyFingerLeft1/pinkyFingerLeft2/pinkyFingerLeft3
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/pinkyFingerLeft1/pinkyFingerLeft2/pinkyFingerLeft3/pinkyFingerLeft4
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/thumbLeft1
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/thumbLeft1/thumbLeft2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/thumbLeft1/thumbLeft2/thumbLeft3
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/indexFingerRight1
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/indexFingerRight1/indexFingerRight2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/indexFingerRight1/indexFingerRight2/indexFingerRight3
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/indexFingerRight1/indexFingerRight2/indexFingerRight3/indexFingerRight4
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/middleFingerRight1
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/middleFingerRight1/middleFingerRight2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/middleFingerRight1/middleFingerRight2/middleFingerRight3
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/middleFingerRight1/middleFingerRight2/middleFingerRight3/middleFingerRight4
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/pinkyFingerRight1
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/pinkyFingerRight1/pinkyFingerRight2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/pinkyFingerRight1/pinkyFingerRight2/pinkyFingerRight3
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/pinkyFingerRight1/pinkyFingerRight2/pinkyFingerRight3/pinkyFingerRight4
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/thumbRight1
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/thumbRight1/thumbRight2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/thumbRight1/thumbRight2/thumbRight3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: LerpzRun
+      takeName: Take 001
+      firstFrame: 41
+      lastFrame: 57
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Lerpz
+        weight: 1
+      - path: rootJoint
+        weight: 1
+      - path: rootJoint/hipLeft
+        weight: 1
+      - path: rootJoint/hipLeft/kneeLeft
+        weight: 1
+      - path: rootJoint/hipLeft/kneeLeft/ankleLeft
+        weight: 1
+      - path: rootJoint/hipLeft/kneeLeft/ankleLeft/footLeft
+        weight: 1
+      - path: rootJoint/hipLeft/kneeLeft/ankleLeft/footLeft/toeLeft
+        weight: 1
+      - path: rootJoint/hipLeft/kneeLeft/ankleLeft/footLeft/toeLeft/toeLeftTip
+        weight: 1
+      - path: rootJoint/hipRight
+        weight: 1
+      - path: rootJoint/hipRight/kneeRight
+        weight: 1
+      - path: rootJoint/hipRight/kneeRight/ankleRight
+        weight: 1
+      - path: rootJoint/hipRight/kneeRight/ankleRight/footRight
+        weight: 1
+      - path: rootJoint/hipRight/kneeRight/ankleRight/footRight/toeRight
+        weight: 1
+      - path: rootJoint/hipRight/kneeRight/ankleRight/footRight/toeRight/toeRightTip
+        weight: 1
+      - path: rootJoint/torso
+        weight: 1
+      - path: rootJoint/torso/shoulders
+        weight: 1
+      - path: rootJoint/torso/shoulders/head
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/aNTeNNa_trEE
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/aNTeNNa_trEE/antennaLeft1
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/aNTeNNa_trEE/antennaLeft1/antennaLeft2
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/aNTeNNa_trEE/antennaLeft1/antennaLeft2/antennaLeft3
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/aNTeNNa_trEE/antennaRight1
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/aNTeNNa_trEE/antennaRight1/antennaRight2
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/aNTeNNa_trEE/antennaRight1/antennaRight2/antennaRight3
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/mouthBottom1
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/mouthBottom1/mouthBottom2
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/mouthLeft1
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/mouthLeft1/mouthLeft2
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/mouthRight1
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/mouthRight1/mouthRight2
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/mouthTop1
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/mouthTop1/mouthTop2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/indexFingerLeft1
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/indexFingerLeft1/indexFingerLeft2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/indexFingerLeft1/indexFingerLeft2/indexFingerLeft3
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/indexFingerLeft1/indexFingerLeft2/indexFingerLeft3/indexFingerLeft4
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/middleFingerLeft1
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/middleFingerLeft1/middleFingerLeft2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/middleFingerLeft1/middleFingerLeft2/middleFingerLeft3
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/middleFingerLeft1/middleFingerLeft2/middleFingerLeft3/middleFingerLeft4
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/pinkyFingerLeft1
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/pinkyFingerLeft1/pinkyFingerLeft2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/pinkyFingerLeft1/pinkyFingerLeft2/pinkyFingerLeft3
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/pinkyFingerLeft1/pinkyFingerLeft2/pinkyFingerLeft3/pinkyFingerLeft4
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/thumbLeft1
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/thumbLeft1/thumbLeft2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/thumbLeft1/thumbLeft2/thumbLeft3
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/indexFingerRight1
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/indexFingerRight1/indexFingerRight2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/indexFingerRight1/indexFingerRight2/indexFingerRight3
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/indexFingerRight1/indexFingerRight2/indexFingerRight3/indexFingerRight4
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/middleFingerRight1
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/middleFingerRight1/middleFingerRight2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/middleFingerRight1/middleFingerRight2/middleFingerRight3
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/middleFingerRight1/middleFingerRight2/middleFingerRight3/middleFingerRight4
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/pinkyFingerRight1
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/pinkyFingerRight1/pinkyFingerRight2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/pinkyFingerRight1/pinkyFingerRight2/pinkyFingerRight3
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/pinkyFingerRight1/pinkyFingerRight2/pinkyFingerRight3/pinkyFingerRight4
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/thumbRight1
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/thumbRight1/thumbRight2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/thumbRight1/thumbRight2/thumbRight3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: LerpzJump
+      takeName: Take 001
+      firstFrame: 121
+      lastFrame: 129
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Lerpz
+        weight: 1
+      - path: rootJoint
+        weight: 1
+      - path: rootJoint/hipLeft
+        weight: 1
+      - path: rootJoint/hipLeft/kneeLeft
+        weight: 1
+      - path: rootJoint/hipLeft/kneeLeft/ankleLeft
+        weight: 1
+      - path: rootJoint/hipLeft/kneeLeft/ankleLeft/footLeft
+        weight: 1
+      - path: rootJoint/hipLeft/kneeLeft/ankleLeft/footLeft/toeLeft
+        weight: 1
+      - path: rootJoint/hipLeft/kneeLeft/ankleLeft/footLeft/toeLeft/toeLeftTip
+        weight: 1
+      - path: rootJoint/hipRight
+        weight: 1
+      - path: rootJoint/hipRight/kneeRight
+        weight: 1
+      - path: rootJoint/hipRight/kneeRight/ankleRight
+        weight: 1
+      - path: rootJoint/hipRight/kneeRight/ankleRight/footRight
+        weight: 1
+      - path: rootJoint/hipRight/kneeRight/ankleRight/footRight/toeRight
+        weight: 1
+      - path: rootJoint/hipRight/kneeRight/ankleRight/footRight/toeRight/toeRightTip
+        weight: 1
+      - path: rootJoint/torso
+        weight: 1
+      - path: rootJoint/torso/shoulders
+        weight: 1
+      - path: rootJoint/torso/shoulders/head
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/aNTeNNa_trEE
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/aNTeNNa_trEE/antennaLeft1
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/aNTeNNa_trEE/antennaLeft1/antennaLeft2
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/aNTeNNa_trEE/antennaLeft1/antennaLeft2/antennaLeft3
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/aNTeNNa_trEE/antennaRight1
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/aNTeNNa_trEE/antennaRight1/antennaRight2
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/aNTeNNa_trEE/antennaRight1/antennaRight2/antennaRight3
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/mouthBottom1
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/mouthBottom1/mouthBottom2
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/mouthLeft1
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/mouthLeft1/mouthLeft2
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/mouthRight1
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/mouthRight1/mouthRight2
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/mouthTop1
+        weight: 1
+      - path: rootJoint/torso/shoulders/head/mouthTop1/mouthTop2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/indexFingerLeft1
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/indexFingerLeft1/indexFingerLeft2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/indexFingerLeft1/indexFingerLeft2/indexFingerLeft3
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/indexFingerLeft1/indexFingerLeft2/indexFingerLeft3/indexFingerLeft4
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/middleFingerLeft1
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/middleFingerLeft1/middleFingerLeft2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/middleFingerLeft1/middleFingerLeft2/middleFingerLeft3
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/middleFingerLeft1/middleFingerLeft2/middleFingerLeft3/middleFingerLeft4
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/pinkyFingerLeft1
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/pinkyFingerLeft1/pinkyFingerLeft2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/pinkyFingerLeft1/pinkyFingerLeft2/pinkyFingerLeft3
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/pinkyFingerLeft1/pinkyFingerLeft2/pinkyFingerLeft3/pinkyFingerLeft4
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/thumbLeft1
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/thumbLeft1/thumbLeft2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderLeft/elbowLeft/wristLeft/handLeft/thumbLeft1/thumbLeft2/thumbLeft3
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/indexFingerRight1
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/indexFingerRight1/indexFingerRight2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/indexFingerRight1/indexFingerRight2/indexFingerRight3
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/indexFingerRight1/indexFingerRight2/indexFingerRight3/indexFingerRight4
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/middleFingerRight1
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/middleFingerRight1/middleFingerRight2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/middleFingerRight1/middleFingerRight2/middleFingerRight3
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/middleFingerRight1/middleFingerRight2/middleFingerRight3/middleFingerRight4
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/pinkyFingerRight1
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/pinkyFingerRight1/pinkyFingerRight2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/pinkyFingerRight1/pinkyFingerRight2/pinkyFingerRight3
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/pinkyFingerRight1/pinkyFingerRight2/pinkyFingerRight3/pinkyFingerRight4
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/thumbRight1
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/thumbRight1/thumbRight2
+        weight: 1
+      - path: rootJoint/torso/shoulders/shoulderRight/elbowRight/wristRight/handRight/thumbRight1/thumbRight2/thumbRight3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -209,7 +885,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 1
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

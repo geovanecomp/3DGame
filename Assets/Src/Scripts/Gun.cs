@@ -8,16 +8,15 @@ public class Gun : MonoBehaviour {
 	float shootSpeed;
 	float shootTime;
 	float shootTimeDelay;
-	[SerializeField]GameObject bullet; // [SerializeField] e pra poder preencher na engine quem sera
-	GameObject bala;
+	[SerializeField]GameObject bullet; // [SerializeField] e pra poder preencher na engine quem sera "bullet"
 	// Use this for initialization
 	void Start () {
+		//Atributos criados para caso tenha municao no mapa e etc
 		ammoMax = 10;
 		ammoMin = 0;
 		ammo = 200;
 		shootTime = 2;
 		shootTimeDelay = 2;
-		bala = GameObject.FindGameObjectWithTag("Bullet");
 	}
 	
 	// Update is called once per frame
@@ -27,11 +26,11 @@ public class Gun : MonoBehaviour {
 	}
 
 	void shoot(){
-		if (Input.GetKeyDown (KeyCode.S) && ammo > ammoMin && shootTime > shootTimeDelay) {
+		if (Input.GetKeyDown (KeyCode.F) && ammo > ammoMin && shootTime > shootTimeDelay) {//So atira ao pressionar F e se as balas nao acabaram
 			Instantiate (bullet, transform.position, transform.rotation);
 			ammo = ammo - 1;
 			shootTime = 0;
-			//bullet.SetActive(false); Tentar fazer a bala desaparecer dps de um tempo
+			//bullet.SetActive(false);//Seria legal destruir as balas dps de um tempo
 		}
 	}
 }

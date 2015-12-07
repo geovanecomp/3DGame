@@ -1,19 +1,20 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+//Classe quebra galho, provavelmente sera substituida
 public class MovimentPlayer : MonoBehaviour {
 	private Transform player;
 	private float normalSpeed;
 	float rotationSpeed;
-	// Use this for initialization
-	void Start () {
-		//player = (CharacterController)GetComponent (typeof()
-		normalSpeed = 50;
-		rotationSpeed = 100;
-	}
 	
-	// Update is called once per frame
+	void Start () {
+ 		normalSpeed = 50;
+		rotationSpeed = 100;
+		transform.position = new Vector3 (424.168f, 15f, 158.54f); //seta o jogador na posicao inicial
+	}
+
 	void Update () {
+		//Movimentara o jogador em funcao da tecla pressionada 
 		if (Input.GetKey (KeyCode.UpArrow)) {
 			transform.Translate (0, 0, Time.deltaTime * normalSpeed);
 		} 
@@ -29,17 +30,5 @@ public class MovimentPlayer : MonoBehaviour {
 		}
 		//player.Translate (Time.deltaTime, 0, 0);
 
-	}
-	void OnTriggerEnter(Collider other){
-		if (other.gameObject.CompareTag ("Coin")) {
-			other.gameObject.SetActive(false);
-		}
-	}
-	//SOLUCAO TEMPORARIA PARA PEGAR MOEDAS
-	void OnCollisionEnter (Collision collision){
-		if (collision.gameObject.tag == "Coin") {
-			Destroy(GameObject.FindGameObjectWithTag("Coin")); //PARA DESTRUIR A BALA
-			//GameObject.FindGameObjectWithTag("Coin").SetActive(false);
-		}
 	}
 }
