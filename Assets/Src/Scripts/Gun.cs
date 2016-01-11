@@ -16,7 +16,7 @@ public class Gun : MonoBehaviour {
 		ammoMin = 0;
 		ammo = 200;
 		shootTime = 2;
-		shootTimeDelay = 2;
+		shootTimeDelay = 1;
 	}
 	
 	// Update is called once per frame
