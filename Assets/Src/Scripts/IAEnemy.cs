@@ -16,6 +16,8 @@ public class IAEnemy : MonoBehaviour {
 		playerObject = (Player)GameObject.FindGameObjectWithTag("Player").GetComponent(typeof(Player));
 		bulletObject = (Bullet)GameObject.FindGameObjectWithTag("Bullet").GetComponent(typeof(Bullet));
 		speed = 30;
+
+		//player.gameObject.SetActive(false);
 		maxDistance = 100;
 		minDistance = 5;
 		//life = 100;

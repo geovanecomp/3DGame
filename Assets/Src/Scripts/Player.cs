@@ -63,6 +63,8 @@ public class Player : MonoBehaviour {
 	
 	public bool isDropped(){
 		if (transform.position.y <= hole) {
+
+			//gameObject.SetActive(false);
 			return true;
 		} else {
 			return false;
